@@ -1,0 +1,76 @@
+
+.sidebar{
+
+ 
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding-left: 1%;
+    padding-top: px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.shortcut-links  img{
+    width: 30px;
+margin-left: 10px;
+}
+
+.shortcut-links a{
+    
+    align-items: center;
+   width: fit-content;
+   flex-wrap: wrap;
+   color:rgb(0, 0, 0) ;
+   font-size: 25px;
+   font-weight: 900;
+   padding-top: px;
+   display: flex;
+  position: relative;
+}
+.shortcut-links a:after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+  }
+  
+  .shortcut-links a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+  .shortcut-links a:hover{
+    padding-left: 20px;
+  }
+
+.starsagitna img{
+margin-left: 60px;
+width: 30px;
+}
+
+.topbutton button{
+    background-color: bisque;
+    padding: 0 20px;
+    margin-left: 50px;
+    border-radius: 60px;
+
+}
+.topbutton button:hover{
+    margin-left: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+.topbutton p{
+    font-size: 15px;
+}
