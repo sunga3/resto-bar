@@ -26,7 +26,7 @@ margin-left: 10px;
    flex-wrap: wrap;
    color:rgb(0, 0, 0) ;
    font-size: 25px;
-   font-weight: 900;
+   font-weight: 700;
    padding-top: px;
    display: flex;
   position: relative;
@@ -55,8 +55,8 @@ margin-left: 10px;
   }
 
 .starsagitna img{
-margin-left: 60px;
-width: 30px;
+margin-left: 30px;
+width: 60px;
 }
 
 .topbutton button{

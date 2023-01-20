@@ -206,7 +206,7 @@ border-radius: 50px;
 
 /* -----------------------------------------------container 2 */
 .container2{
-    height: 100%;
+    height: 119%;
     width: 100%;
     background-color: #fff;
 }
@@ -222,7 +222,7 @@ border-radius: 50px;
   .item2 h1{
     font-size: 50px;
     padding: 50px 50px ;
-    background-color: rgb(255, 255, 255);
+    background-color: #e6f1e0;
     display: flex;
     margin-left: 200px;
     margin-top: -45%;
@@ -274,10 +274,9 @@ border-radius: 50px;
 }
 .links3{
     padding: 10px;
-    background-color: white;
     width: 400px;
     height: 450px;
-    box-shadow: 2px 2px 2px #6c6b6b;
+
     
 }
 .links3 img{
@@ -293,13 +292,11 @@ border-radius: 50px;
     width: 400px;
     height: 450px;
     border-radius: 50px;
-    transition: border-radius 1s;
-    background-color: #B1C6A4;
-    box-shadow: 6px 6px 6px #6c6b6b;
-   
+    transition: border-radius 1s; 
 }
 .links3 img:hover{
 border-radius: 50px;
+transition: border-radius 1s;
 }
 .links3 p{
     color: #000000;
@@ -309,6 +306,11 @@ border-radius: 50px;
     font-size: 20px;
     color: #000000;
     font-weight: 800;
+}
+.inside h1{
+    padding: 100px;
+    padding-bottom: 0px;
+    
 }
 
 /* -------------------------------cont 3 */
@@ -342,18 +344,21 @@ border-radius: 50px;
 }   
 
 .see button{
-    padding: 30px 70px;
-    margin-top: 70px;
+    padding: 10px 30px;
+    margin-top: 0px;
     font-size: 25px;
     border-radius: 50px;
     margin-left: 800px;
     background-color: antiquewhite;
     font-weight: bolder;
+    text-align: center;
+    
+    
     
 }
 .see button:hover{
-    padding: 30px 70px;
-    margin-top: 70px;
+    padding: 10px 30px;
+    margin-top: 0px;
     font-size: 25px;
     border-radius: 50px;
     margin-left: 800px;
@@ -361,4 +366,169 @@ border-radius: 50px;
     font-weight: bolder;
     color: #fff;
     border-color:  white;
+}
+.see img{
+    width: 50px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+
+}
+
+    
+    
+   
+
+.see{
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+    
+}
+
+/* ------------------container 4 */
+.container4-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    
+
+}
+.style{
+    margin-left: 150px;
+    text-align: center;
+   
+    
+    
+}
+.style h1{
+    font-size: 60px;
+    margin-top: 0;
+    padding: 50px;
+    padding-bottom: 20px;
+    margin-left: -100px;
+}
+.style h2{
+    margin-left: -100px;
+}
+.style p{
+    width: 400px;
+    padding: 30px;
+    margin-left: 290px;
+    border: solid #B1C6A4;
+
+}
+.container4 {
+    position: relative;
+    width: 1000px;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides4 {
+    display: none;
+    margin-left: 50px;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(11, 7, 7);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 45px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #B1C6A4;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container4 {
+    text-align: center;
+    background-color: #B1C6A4;
+    padding: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+  
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column4 {
+    float: left;
+    width: 16.666%;
+    margin-bottom: 50px;
+    
+    
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+    border: solid #000000;
+  }
+ .vl4{
+    border-left: 6px solid #B1C6A4;
+    height: auto;
+    margin-left: 300px;
+  
+}
+/* --------------------------container 5 */
+.container5{
+    width: 100%;
+    height: 100%;
+    background-color: #B1C6A4;
+}
+.vl5{
+    border-left: 6px solid #000000;
+    height: 100%;
+    margin-left: 300px;
+  
 }

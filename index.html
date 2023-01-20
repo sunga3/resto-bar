@@ -67,8 +67,9 @@
 
 <div class="container2">
     <div class="vl"></div>
+    
         <div class="item2">
-            <h1>concept</h1><p>first timers</p>
+            <h1>CONCEPT</h1><p>first timers</p>
         </div>
         <div class="concept">
             <div class="inside">
@@ -113,6 +114,7 @@
         <div class="item">
             <div class="links3"> 
                 <a href=""><img src="img/3.png" alt="">beach area</a>
+
                 <p>Justice, in its broadest sense, is the principle that people receive that which
                     they deserve,</p>
                     <a href=""><h4>see more</h4></a>
@@ -121,7 +123,7 @@
         </div>
         
     </div>
-    <div class="see"><a href=""><button> SEE THE MENU</button></a></div>
+    <div class="see"><a href=""><button> SEE THE MENU <img src="img/arrow.png" alt=""> </button></a></div>
 </div>
 
 <div class="container3">
@@ -129,6 +131,119 @@
     
        
     
+</div>
+
+<div class="container4-1">
+    <div class="vl4">
+    <div class="style">
+        <h1>STYLE</h1>
+        <h2>fancy or strictly functional style</h2>
+        <p> We want to provide an appealing ambiance (along with great food and drinks). 
+            Your restaurant bar design can determine whether your customers will hang out
+             for hours or leave after one quick drink.</p>
+        <div class="container4">
+            <div class="mySlides4">
+              <div class="numbertext">1 / 6</div>
+              <img src="img/2.png" style="width:90%">
+            </div>
+          
+            <div class="mySlides4">
+              <div class="numbertext">2 / 6</div>
+              <img src="img/3.png" style="width:90%">
+            </div>
+          
+            <div class="mySlides4">
+              <div class="numbertext">3 / 6</div>
+              <img src="img/4.png" style="width:90%">
+            </div>
+              
+            <div class="mySlides4">
+              <div class="numbertext">4 / 6</div>
+              <img src="img/3.png" style="width:90%">
+            </div>
+          
+            <div class="mySlides4">
+              <div class="numbertext">5 / 6</div>
+              <img src="img/2.png" style="width:90%">
+            </div>
+              
+            <div class="mySlides4">
+              <div class="numbertext">6 / 6</div>
+              <img src="img/1.png" style="width:90%">
+            </div>
+              
+            <a class="prev" onclick="plusSlides4(-1)">❮</a>
+            <a class="next" onclick="plusSlides4(1)">❯</a>
+          
+            <div class="caption-container4">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row4">
+              <div class="column4">
+                <img class="demo cursor" src="img/2.png" style="width:100%" onclick="currentSlide1(1)" alt="bar area 1">
+              </div>
+              <div class="column4">
+                <img class="demo cursor" src="img/3.png" style="width:100%" onclick="currentSlide1(2)" alt="bar area 2">
+              </div>
+              <div class="column4">
+                <img class="demo cursor" src="img/4.png" style="width:100%" onclick="currentSlide1(3)" alt="bar area 3">
+              </div>
+              <div class="column4">
+                <img class="demo cursor" src="img/3.png" style="width:100%" onclick="currentSlide1(4)" alt="bar area 4">
+              </div>
+              <div class="column4">
+                <img class="demo cursor" src="img/2.png" style="width:100%" onclick="currentSlide1(5)" alt="bar area 5">
+              </div>    
+              <div class="column4">
+                <img class="demo cursor" src="img/1.png" style="width:100%" onclick="currentSlide1(6)" alt="bar area 6">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          let slideIndex4 = 1;
+          showSlides(slideIndex4);
+          
+          function plusSlides4(n) {
+            showSlides(slideIndex4 += n);
+          }
+          
+          function currentSlide1(n) {
+            showSlides(slideIndex4 = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides4");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex4 = 1}
+            if (n < 1) {slideIndex4 = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex4-1].style.display = "block";
+            dots[slideIndex4-1].className += " active";
+            captionText.innerHTML = dots[slideIndex4-1].alt;
+          }
+          </script>
+    </div>
+</div>
+    <div class="text">
+
+    </div>
+</div>
+
+<div class="container5">
+    <div class="vl5">
+        <div class="item5">
+
+        </div>
+    </div>
 </div>
 
  <!-- sidebar -->
@@ -141,13 +256,14 @@
         <a href=""><img src="images/show-more.png"><p>STAFF</p></a>
         <a href=""><img src="images/show-more.png"><p>SALON</p></a>
         <a href=""><img src="images/show-more.png"><p>STYLE</p></a>
-       <div class="starsagitna"> <a href=""><img src="images/star.png"><p></p></a> </div>
+       <div class="starsagitna"> <a href=""><img src="img/dot.png"><p></p></a> </div>
         <a href=""><img src="images/show-more.png"><p>RECRUIT</p></a>
         
     </div>
     
     
 </div>
+
 
 
 
